@@ -59,7 +59,7 @@ li {
 
 .jumbotron {
   width: 100%;
-  height: 40vh;
+  height: 45vh;
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,5 +76,48 @@ li {
   position: absolute;
   bottom: -20px;
   left: 150px;
+}
+
+section {
+  background-color: black;
+}
+
+section .album-wrapper {
+  color: white;
+}
+
+section .load-more {
+  text-transform: uppercase;
+  color: white;
+  background-color: #0c82f3;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.4rem 1rem;
+}
+
+.main-links {
+  background-color: #0c82f3;
+  color: white;
+  padding: 0.5rem 0;
+}
+
+.main-links .links-list {
+  display: flex;
+}
+
+.main-links .links-list li {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.main-links .links-list li img {
+  width: 20%;
+  margin-right: 0.5rem;
+}
+
+.main-links .links-list li h3 {
+  font-size: 0.8rem;
 }
 

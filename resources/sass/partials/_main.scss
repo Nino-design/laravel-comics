@@ -1,0 +1,39 @@
+section{
+    background-color: $background;
+    
+    .album-wrapper {
+        color: $white-text;
+    }
+    
+    .load-more{
+        text-transform: uppercase;
+        color: $white-text;
+        background-color: $blue-color;
+        font-weight: bold;
+        font-size: 1.2rem;
+        padding: 0.4rem 1rem;
+    }
+}
+
+.main-links{
+    background-color: $blue-color;
+    color: $white-text;
+    padding: 0.5rem 0;
+    .links-list {
+      display: flex;
+      li {
+        width: calc(100% / 5);
+        display: flex;
+        align-items: center;
+        padding: .5rem;
+        img {
+          width: 20%;
+          margin-right: 0.5rem;
+        }
+        h3{
+            font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
