@@ -1,0 +1,49 @@
+
+//HEADER
+
+.header-top{
+  background-color: $blue-color;
+
+  ul li a{
+    color: $white-text;
+    margin-right: 30px;
+    
+  }
+ 
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  
+  .header-img img {
+    width: 60%;
+  }
+  .header-list {
+    display: flex;
+  }
+  .header-list li {
+    margin: 0 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 50px;
+  
+  a{
+    color: $grey-text;
+  }
+  }
+  input{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    text-align: right;
+    border-style: none;
+    border-bottom: 1px solid $blue-color;
+    color: $grey-text;
+  }
+}
+
+
+
