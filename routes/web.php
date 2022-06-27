@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home', config('comics'));
 })->name('homepage');
+
+
+Route::get('/home/single-comic', function(){
+    return view('single-comic');
+})->name('single-comic'); 
